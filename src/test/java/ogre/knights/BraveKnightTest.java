@@ -1,4 +1,4 @@
-package pl.ogre.knights;
+package ogre.knights;
 
 import org.testng.annotations.Test;
 

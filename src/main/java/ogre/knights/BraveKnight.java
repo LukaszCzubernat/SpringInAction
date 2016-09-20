@@ -1,10 +1,10 @@
-package pl.ogre.knights;
+package ogre.knights;
 
-public class DemselRescuingKnight implements Knight{
+public class BraveKnight implements Knight {
 
     private Quest quest;
 
-    public DemselRescuingKnight(Quest quest) {
+    public BraveKnight(Quest quest) {
         this.quest = quest;
     }
 

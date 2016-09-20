@@ -1,4 +1,4 @@
-package pl.ogre.knights;
+package ogre.knights;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -1,4 +1,4 @@
-package pl.ogre.knights;
+package ogre.knights;
 
 import java.io.PrintStream;
 
