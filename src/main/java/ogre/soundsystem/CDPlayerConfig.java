@@ -1,9 +1,10 @@
 package ogre.soundsystem;
 
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
-@ComponentScan(basePackageClasses = MediaDevice.class)
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class CDPlayerConfig {
+    ApplicationContext context = new ClassPathXmlApplicationContext("mediaPlayer.xml");
+
 }
