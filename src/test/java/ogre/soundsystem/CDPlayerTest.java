@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = CDPlayerConfig.class)
+@ContextConfiguration(classes = SoundSystemConfig.class)
 public class CDPlayerTest { //for testNG add extends AbstractTestNGSpringContextTests
 
     private static final String expectedPlayerOutput = "Playing: The Beatles - Sgt. Peppers Lonely Hearts Club Band\n";
