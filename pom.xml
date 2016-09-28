@@ -16,7 +16,7 @@
         <project.target.version>1.8</project.target.version>
 
         <!-- dependencies properties -->
-        <spring.version>4.3.2.RELEASE</spring.version>
+        <spring.version>4.3.3.RELEASE</spring.version>
         <system.rules.version>1.16.1</system.rules.version>
         <!--<testng.version>6.9.10</testng.version>-->
         <junit.version>4.12</junit.version>
@@ -55,6 +55,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
+            <version>${spring.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-expression</artifactId>
             <version>${spring.version}</version>
             <scope>compile</scope>
         </dependency>
