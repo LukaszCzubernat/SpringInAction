@@ -4,7 +4,7 @@
        xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="compactDisc" class="ogre.soundsystem.BlankDisk" c:_0="Sgt. Peppers Lonely Hearts Club Band" c:_1="The Beatles">
+    <bean id="compactDisc" class="ogre.soundsystem.BlankDisc" c:_0="Sgt. Peppers Lonely Hearts Club Band" c:_1="The Beatles">
         <constructor-arg>
             <list>
 

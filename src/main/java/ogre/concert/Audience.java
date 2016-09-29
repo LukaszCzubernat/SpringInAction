@@ -11,11 +11,11 @@ public class Audience {
     @Pointcut("@annotation(Action)")
     public void action() {}
 
-/*    @Pointcut("execution(* *(..)))")
-    public void atExecution() {}*/
-
-    @Pointcut("within(Performance+)")
+    @Pointcut("execution(* *(..)))")
     public void atExecution() {}
+
+   /* @Pointcut("within(Performance+)")
+    public void atExecution() {}*/
 
     @Pointcut("action() && atExecution()")
     public void performance() {}

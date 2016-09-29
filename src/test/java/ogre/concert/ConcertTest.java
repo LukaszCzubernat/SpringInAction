@@ -15,8 +15,13 @@ public class ConcertTest {
     @MusicEvent
     Performance performance;
 
+    @Autowired
+    @Encore
+    Encoreable encoreable;
+
     @Test
     public void perform() throws Exception {
         performance.perform();
+        encoreable.performanceEncore();
     }
 }
