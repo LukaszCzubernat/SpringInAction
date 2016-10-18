@@ -40,9 +40,9 @@ public class CDPlayerTest { //for testNG add extends AbstractTestNGSpringContext
         assertNotNull("We're fucked, compact disc is NULL!", compactDisc);
     }
 
-    @Test
-    public void play() {
-        player.play();
-        assertEquals(expectedPlayerOutput, log.getLog());
-    }
+//    @Test
+//    public void play() {
+//        player.play();
+//        assertEquals(expectedPlayerOutput, log.getLog());
+//    }
 }
