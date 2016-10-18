@@ -35,4 +35,13 @@ body {
 .errors {
     background-color: #ffcccc;
     color: red;
+    border: 2px solid red;
+}
+
+label.error {
+    color: red;
+}
+
+input.error {
+    background-color: #ffcccc;
 }

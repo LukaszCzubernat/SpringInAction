@@ -10,23 +10,23 @@ public class Spitter {
 
     long spitterId;
     @NotNull
-    @Size(min = 2, max = 30)
+    @Size(min = 2, max = 30, message = "{firstName.size}")
     String firstName;
 
     @NotNull
-    @Size(min = 2, max = 30)
+    @Size(min = 2, max = 30, message = "{lastName.size}")
     String lastName;
 
     @NotNull
-    @Size(min = 5, max = 40)
+    @Size(min = 5, max = 40, message = "{email.valid}")
     String email;
 
     @NotNull
-    @Size(min = 5, max = 16)
+    @Size(min = 5, max = 16, message = "{userName.size}")
     String userName;
 
     @NotNull
-    @Size(min = 2, max = 25)
+    @Size(min = 2, max = 25, message = "{password.size}")
     String password;
 
     public Spitter() {}
