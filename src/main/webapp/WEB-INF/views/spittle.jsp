@@ -3,16 +3,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/style.css" />">
-</head>
-    <body>
-        <div class="spittleView">
-           <div class="spittleMessage"><c:out value="${spittle.message}"/></div>
-        </div>
-        <div>
-            <span class="spittleTime"><c:out value="${spittle.time}"/></span>
-        </div>
-    </body>
-</html>
+
+<div class="spittleView">
+    <div class="spittleMessage"><c:out value="${spittle.message}"/></div>
+</div>
+<div>
+    <span class="spittleTime"><c:out value="${spittle.time}"/></span>
+</div>
+
