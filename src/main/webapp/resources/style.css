@@ -32,6 +32,10 @@ body {
     font-size: 16pt;
 }
 
+.profile {
+    font-size: 16pt;
+}
+
 .errors {
     background-color: #ffcccc;
     color: red;

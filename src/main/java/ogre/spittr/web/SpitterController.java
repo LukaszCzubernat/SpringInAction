@@ -40,7 +40,7 @@ public class SpitterController {
     @RequestMapping(value = "/{userName}")
     private String showSpitterProfile(@PathVariable String userName, Model model) {
         Spitter spitter = spittleRepository.findByUserName(userName);
-        model.addAttribute(spitter);
+        model.addAttribute("spitter", spitter);
         return "profile";
     }
 }
